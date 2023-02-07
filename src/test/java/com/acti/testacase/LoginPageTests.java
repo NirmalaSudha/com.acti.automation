@@ -9,7 +9,7 @@ import com.acti.pages.LoginPage;
 
 public class LoginPageTests extends DriverScript{
 
-	@Test(priority=1) 
+	@Test
 	public void testLoginPage()
 	{	
 		initApplication();
@@ -20,8 +20,8 @@ public class LoginPageTests extends DriverScript{
 		quitDriver();
 	}
 	
-	@Test(priority=2)
-	public void testActImgIsDisplayed()
+	@Test
+	public void testActImgIsDisplayed() 
 	{
 		initApplication();
 		LoginPage lp = new LoginPage();
